@@ -1,5 +1,5 @@
 19.7.22 - Major update:
-- added another secret(shrek)
+- added more secrets
 - fixed the first secret place
 - fixed UI / made the web app look better
 - switched out some of the background and text colors
