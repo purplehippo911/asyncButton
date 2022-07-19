@@ -5,3 +5,4 @@
 - switched out some of the background and text colors
 - divided the js and css to their own files
 - added more images in the `img`- folder
+- made `README.md`-file
