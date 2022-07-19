@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Solway:wght@400;500;700&display=swap");
+
+      :root {
+        --pink: #bc616e;
+        --purple: #bc7ebe;
+        --green: #4A685F;
+        --turqouise: #83D9C7;
+        --grey: #bdc2c1;
+        --bg:#F8F9F7;
+        --black: #0c0c0c;
+        --text_color:#FE3C4A;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Solway", serif;
+        font-size: 20px;
+        background-color: var(--bg);
+        font-weight:700;
+    }
+
+      .main {
+        margin: 5rem auto;
+        padding: 100px 0;
+        background-color: var(--turqouise);
+        /* border: 5px solid var(--black); */
+      }
+
+      .container {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 100vw;
+        margin-bottom: 2rem;
+        /* border: 5px solid red; */
+      }
+
+      .grid {
+        display: grid;
+        gap: 2rem;
+        padding: 2rem;
+        grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr));
+        grid-template-rows: repeat(auto-fill, minmax(3rem, 1fr));
+        grid-auto-flow: dense;
+        align-items: center;
+      }
+
+      .btn {
+        border: 0;
+        color: var(--text_color);
+        background: var(--black);
+        font-size: 5em;
+        font-family: "Solway", serif;
+        font-weight: 700;
+        transition: 0.7s ;
+      }
+
+      .btn:hover {
+        background: var(--black);
+      }
+
+      .btn:focus {
+        grid-column: span 4;
+      }
+
+      .btn30 {
+        grid-column:span 2;
+      }
+
+      .btn31 {
+        grid-row:12 / span 2;
+        opacity:0;
+      }
+
+      .btn31:focus {
+        opacity:1;
+      }
+
+      img {
+        max-width:100%;
+      }
+
+      .shrek {
+        width:70%;
+
+      }
+
+      .col {
+        grid-column: 1 / -1;
+        grid-row: 1 / span 2;
+        padding: 2rem;
+      }
+
+      @media (min-width: 1000px) {
+        :nth-child(2n + 1) {
+          grid-column: span 3;
+        }
+
+        :nth-child(2n + 0) {
+          grid-column: span 5;
+        }
+
+        .btn:focus {
+          grid-column: span 10;
+        }
+
+        .grid {
+          grid-template-rows: repeat(auto-fill, minmax(6rem, 1fr));
+        }
+      }
