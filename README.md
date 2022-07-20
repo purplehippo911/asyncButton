@@ -1,6 +1,14 @@
 # AsyncButton 🍪
 
-![desktop](img/dekstop.png)
+![desktop]screenshots/dekstop.png)
+
+20.7.22 - Minor updates:
+- fixed shrek's button
+- made transiton on the buttons a bit smoother
+- fixed up the images and made some of them downloadable
+- added a `.gitignore`-file and a `package.json`-file
+- added a `you won`-end page
+- updated screenshot image
 
 19.7.22 - Major update:
 - added more secrets
