@@ -1,0 +1,25 @@
+{
+  "name": "asyncbuttons",
+  "version": "1.0.0",
+  "description": "A web app",
+  "main": "app.js",
+  "scripts": {
+    "test": "nice"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purplehippo911/asyncButton.git"
+  },
+  "keywords": [
+    "nice"
+  ],
+  "author": "purplehippo911",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/purplehippo911/asyncButton/issues"
+  },
+  "homepage": "https://github.com/purplehippo911/asyncButton#readme",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
