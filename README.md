@@ -1,6 +1,6 @@
 # AsyncButton 🍪
 
-![desktop](screenshots/dekstop.png)
+![desktop](./screenshots/desktop.png)
 
 20.7.22 - Minor updates:
 - fixed shrek's button
